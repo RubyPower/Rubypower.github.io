@@ -1,0 +1,59 @@
+<!-- CSS (style.css) -->
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #880e4f;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #212121;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fce4ec;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #880e4f;
+    color: #fff;
+}
+
+/* Product Cards */
+.product-card {
+    border: 1px solid #880e4f;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .product-card {
+        margin: 5px;
+    }
+}
